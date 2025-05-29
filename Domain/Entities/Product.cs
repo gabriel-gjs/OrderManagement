@@ -1,4 +1,6 @@
-﻿namespace OrderManagementAPI.Domain.Entities;
+﻿using OrderManagementAPI.API.DTOs;
+
+namespace OrderManagementAPI.Domain.Entities;
 
 public class Product
 {
@@ -15,5 +17,12 @@ public class Product
         Quantity = quantity;
         IsActive = true;
         Id = Guid.NewGuid();
+    }
+
+    public void UpdateProduct(UpdateProductRequest request)
+    {
+        Name = request.Name;
+        Price = request.Price;
+        Quantity = request.Quantity;
     }
 }
