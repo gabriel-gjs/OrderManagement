@@ -6,26 +6,26 @@ namespace OrderManagementAPI.API.Controllers;
 
 public static class ProductController
 {
-    public static void ProductRoutes (this WebApplication app)
+    public static void ProductRoutes(this WebApplication app)
     {
         var routes = app.MapGroup("product");
         var productServices = new ProductServices();
-        
-        routes.MapPost("", 
+
+        routes.MapPost("",
             async (CreateProductRequest request, DatabaseContext context) =>
             {
-                var product = productServices.createProduct(request, context);
+                var product = await productServices.createProduct(request, context);
 
                 return Results.Created("", product);
             });
-        
-        routes.MapGet("", 
+
+        routes.MapGet("",
             async (DatabaseContext context) =>
             {
-                var list =  productServices.getProducts(context);
+                var list = await productServices.getProducts(context);
 
                 return Results.Ok(list);
             });
-        
+
     }
 }
