@@ -1,9 +1,9 @@
-﻿using FirstApi.Products.Entity;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using OrderManagementAPI.Domain.Entities;
 
-namespace FirstApi.Data;
+namespace OrderManagementAPI.Infra.Database;
 
-public class AppDbContext: DbContext
+public class DatabaseContext: DbContext
 {
     public DbSet<Product> Products { get; set; }
 

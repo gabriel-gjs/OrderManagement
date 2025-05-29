@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "AMRTpv8bgR+APfTQS9xwTmafVXYRirl7wkPbLj50OgI=",
-  "Source": "FirstApi",
-  "BasePath": "_content/FirstApi",
+  "Hash": "7t6zplTdT2y95ZUi4GIjn2DL4HAOoPZSSfbk8vAN3gM=",
+  "Source": "OrderManagementAPI",
+  "BasePath": "_content/OrderManagementAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

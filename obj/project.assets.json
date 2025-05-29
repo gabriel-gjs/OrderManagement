@@ -3011,11 +3011,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\FirstApi\\FirstApi.csproj",
-      "projectName": "FirstApi",
-      "projectPath": "C:\\dev\\FirstApi\\FirstApi.csproj",
+      "projectUniqueName": "C:\\dev\\OrderManagementAPI\\OrderManagementAPI.csproj",
+      "projectName": "OrderManagementAPI",
+      "projectPath": "C:\\dev\\OrderManagementAPI\\OrderManagementAPI.csproj",
       "packagesPath": "C:\\Users\\cttga\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\FirstApi\\obj\\",
+      "outputPath": "C:\\dev\\OrderManagementAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cttga\\AppData\\Roaming\\NuGet\\NuGet.Config"

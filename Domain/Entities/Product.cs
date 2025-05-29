@@ -1,4 +1,4 @@
-﻿namespace FirstApi.Products.Entity;
+﻿namespace OrderManagementAPI.Domain.Entities;
 
 public class Product
 {

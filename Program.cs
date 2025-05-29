@@ -1,11 +1,11 @@
-using FirstApi.Data;
-using FirstApi.Products.Routes;
+using OrderManagementAPI.API.Controllers;
+using OrderManagementAPI.Infra.Database;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddScoped<AppDbContext>();
+builder.Services.AddScoped<DatabaseContext>();
 
 var app = builder.Build();
 
